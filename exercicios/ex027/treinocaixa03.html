@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            height: 100%;
+            background-color: gray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        header > nav {
+            background-color: rgb(68, 68, 68);
+            padding: 2px;
+        }
+
+        nav > a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+        }
+
+        section > article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(145, 145, 145);
+            padding: 2px auto;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 10px 0;
+            padding: 2px 0;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.google.com.br">Link</a>
+            <a href="https://www.google.com.br">Link</a>
+            <a href="https://www.google.com.br">Link</a>
+            <a href="https://www.google.com.br">Link</a>
+            <a href="https://www.google.com.br">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam similique, est debitis quas at quod odio repellendus ratione dolore ducimus? Non repudiandae corrupti dignissimos necessitatibus ratione facilis eligendi asperiores.</p>
+                <aside>
+                    Artigo escrito por José da Silva
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Patrick</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
